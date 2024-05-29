@@ -1,9 +1,12 @@
-FROM node
+FROM node:18-alpine
+
+RUN mkdir "/app"
 
 WORKDIR /app
 
-COPY package.json .
-RUN npm i
+COPY package*.json /app .
+
+RUN npm install
 
 COPY . .
 

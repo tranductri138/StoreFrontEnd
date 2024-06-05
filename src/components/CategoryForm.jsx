@@ -1,3 +1,6 @@
+// component common de tai su dung
+
+// viet hoa chu cai dau
 const CategoryForm = ({
   value,
   setValue,

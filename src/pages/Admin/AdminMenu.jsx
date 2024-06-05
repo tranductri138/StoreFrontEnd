@@ -2,6 +2,8 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 
+// component theo tung page
+
 const AdminMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
